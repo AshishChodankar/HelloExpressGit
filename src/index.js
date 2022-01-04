@@ -1,4 +1,4 @@
-import express from "express";
+import express from "express"; //1st use npm init tp create package.json file,then install npm express
 import { getAllUser } from "./user.js";
 const app = express();
 
@@ -18,4 +18,4 @@ app.get("/users", (req, res) => {
 });
 
 // server start
-app.listen(4000, () => console.log("server started..."));
+app.listen(4000, () => console.log("b1"));
